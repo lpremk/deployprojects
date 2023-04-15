@@ -1,0 +1,69 @@
+axios package should include
+
+Pending 
+
+
+* find by mobile number -------------------------------------------------------------------------done 
+1) solve meeting person /visitor mobile number is not viewd in frontend---------------------------done
+2) reverify approve button, solve exit and cancel buttons ---------------------------------------done
+3) solve if canceled true all other colums should be disabled -----------------------------------Not required (other solution)
+
+* solve the required attribute in create visit,registration--------------------------------------done
+
+* develop find visit by visit id-----------------------------------------------------------------done
+
+* (optional) develop find visit by registration id-----------------------------------------------done
+
+* Develop my visits From to To date -------------------------------------------------------------done
+ 
+    With approve by me column -------------------------------------------------------------------done
+  
+* Change folder and routing path of Create visit and register user--------------------------------done
+
+* implementation changes in Create  visit of meeting person username 2 in backend.----------------done
+
+* implement file upload in Create visit & reflect same in view details.--------------------------done
+
+* remove additional functions from readallcanceledby mobile----------------------------------------done
+
+* solve visit by visit id normal visit buttons-----------------------------------------------------done
+
+* develop canceled visit ( develop seperate backend api for normal visit and caneled visit)--------done
+
+* develop App Admin find user----------------------------------------------------------------------done
+
+* develop today canceled visits--------------------------------------------------------------------?
+
+* develop from to to canceled visits----------------------------------------------------------------?
+
+* implement mobile number & email validation in new visit and user registration --------------------??
+
+* qr code--------------------------------------------------------------------------------------------?
+
+* Add security---------------------------------------------------------------------------------------done
+
+* todo -- app admin -- find user - view details -- roles not visible-----------------------------------done
+
+* public -- reset link -- after click submit -- password changed successfull -- success message--------done
+
+* public -- login page ---input type-- password---------------------------------------------------------done
+
+* logo & qr code (visit id) in while printing visit-----------------------------------------------?
+
+
+
+* additional -- 
+1) app admin change password of any user (in the rare case of mail id issue)
+2) security admin
+
+----------------------------------------
+exit pass - description & permit by exit admin-------------------------------------------------------------?
+
+visit - while exit -- are you taking something outside the university (description, yes/no, photograph)
+
+
+
+  "proxy": "http://localhost:8080/",
+
+
+
