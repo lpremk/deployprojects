@@ -1,0 +1,8 @@
+/*
+'auth-navbar' class name uniquely represents navigation bar of AuthNavbar Component
+'custom-text-wrapper' class name represents content inside dropdown-item link in bootstrap navbar
+*/
+
+.auth-navbar .nav-item .dropdown-menu .custom-text-wrapper{
+    padding: 5px;
+}

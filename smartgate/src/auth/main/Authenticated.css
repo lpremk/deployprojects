@@ -1,0 +1,19 @@
+/*--------------------------Responsive------------------------*/
+/*For xs*/
+@media only screen and (max-device-width: 576px){
+.authenticated .material-icons-outlined{
+    font-size: 48px !important;
+}
+.authenticated .card-body .text-center{
+    font-size: 19px;
+}
+}
+
+/* .authenticated div.card-body:nth-of-type(2){
+    background-color: yellow;
+    border: 2px solid red;
+} */
+
+.authenticated .card-body:nth-child(2){
+    background-color: yellow;
+}

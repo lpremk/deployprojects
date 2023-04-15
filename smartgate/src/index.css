@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.commonStyle{
+  /* border: 1px solid rgb(182, 179, 179); */
+}
+
+.commonStyle .heading{
+  color: blueviolet;
+  padding-bottom: 9px;
+}
+.commonStyle .form-control{
+  border-radius: 0px;
+  background-color: rgb(243, 243, 243);
+}
+.commonStyle .submit{
+  border-radius: 0px;
+}
+
+.custom-card{
+  min-width: 219px;
+  min-height: 162px;
+  font-size: 20px;
+  padding-top: 30px;
+  margin: 20px;
+  color: #99751c;
+  font-weight: 500;
+  font-family: monospace;
+  border-radius: 16px;
+  border: 2px solid gold;
+}
+.custom-card:hover{
+  background-color: lightgray;
+  
+}
+
+
+/* input:valid {
+  background-color: palegreen;
+} */
+
+input:invalid {
+  background-color: lightpink;
+}

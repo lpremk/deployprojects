@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="demoSection">
+        <p>hello</p>
+    </div>
+    <button onclick=" getPrettifiedRole('ROLE_APP_ADMIN_HELLO_HI')">test</button>
+    <script>
+        function test(){
+            document.getElementById("demoSection").innerHTML="<p>hello2</p>"
+        }
+        function getPrettifiedRoleName(role){
+            let result=role;
+            result=result.slice(5)
+            let resultArr=result.split('_')
+            let resultFinal=""
+            for(let i=0;i<resultArr.length;i++){
+                // resultFinal+=resultArr[i]+' '
+                if(i==resultArr.length-1){
+                    resultFinal+=getPrettify(resultArr[i])
+                }
+                else{
+                    resultFinal+=getPrettify(resultArr[i])+' '
+                }
+            }
+            /*here below function will do captilialize the first letter 
+              and remaining letters will be lower case
+            */
+            function getPrettify(word){
+                word=word.toLowerCase();
+                word=word.charAt(0).toUpperCase() + word.slice(1);
+                return word;
+            }
+            return resultFinal;
+        }
+    </script>
+</body>
+</html>

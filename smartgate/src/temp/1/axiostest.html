@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script>
+     const config = {
+    headers: {
+      'Content-Type': 'application/json' 
+    },
+    rejectUnauthorized: false,
+          requestCert: false,
+          agent: false,
+          strictSSL: false,
+          secureProtocol: 'TLSv1_method'  
+  };
+         axios
+    .post('https://localhost:8080/login', {
+      username: 'admin',
+      password: 'admin123'  
+    },config)
+    .then(res => console.log(res)) 
+    .catch(err => console.error(err));                                                                                                                 
+    </script>
+</body>
+</html>

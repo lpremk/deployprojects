@@ -1,0 +1,15 @@
+import './xxxxx.css';
+
+function xxxxxxx() {
+    return(
+    <div>
+        <div className="container d-flex justify-content-center">
+            <div className='patient-acknowledgement'>
+                
+            </div>
+        </div>
+    </div>
+    )
+}
+
+export default xxxxx;
